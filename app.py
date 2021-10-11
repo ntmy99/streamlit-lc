@@ -33,7 +33,7 @@ st.markdown(""" <style>
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 </style> """, unsafe_allow_html=True)
-st.sidebar.image: st.sidebar.image("/Users/ntmy99/CDE_Epay/logo-epay.svg", use_column_width=True)
+st.sidebar.image: st.sidebar.image("logo-epay.svg", use_column_width=True)
 st.sidebar.title("Dashboard Inputs")
 st.markdown(
         """
@@ -274,4 +274,4 @@ html_line="""
 """
 st.markdown(html_line, unsafe_allow_html=True)
 c1,c2 = st.columns(2)
-c2.image('/Users/ntmy99/CDE_Epay/logo-epay.svg', use_column_width=True)
+c2.image('logo-epay.svg', use_column_width=True)
