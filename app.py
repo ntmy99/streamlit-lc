@@ -8,7 +8,6 @@ from scipy.stats import beta
 import random
 from cde_function import * 
 
-
 st.set_page_config(page_title="Limit Control Dashboard", page_icon="", layout="wide")
 html_header="""
 <head>
@@ -37,13 +36,17 @@ st.sidebar.image: st.sidebar.image("logo-epay.svg", use_column_width=True)
 st.sidebar.title("Dashboard Inputs")
 st.markdown(
         """
-Users MUST submitting required inputs at sidebar BEFORE running program
+Users must switch theme to Custom theme or Dark mode by clicking into 3-line button on the top right side, navigating to Settings and choose Custom/Dark mode under Theme.
 
-Step 1: Finding the optimal shape ratio that generates highest return 
+Workflow of this dashboard: 
 
-Step 2: Simulating 1000 scenarios with optimised shape factor
+Step 1: Users submit required inputs (min loan, max loan, shape factor, number of loans, APR) to the sidebar before running.
 
-Step 3: Evaluating the result 
+Step 2: The program will find the optimal shape ratio that will generate highest return.
+
+Step 3: Then it will simulate 1000 scenarios with optimised shape factor
+
+Step 4: The final results will be printed out for evaluation. 
 
 """)
 
