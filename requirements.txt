@@ -44,7 +44,7 @@ pycodestyle==2.7.0
 pycosat==0.6.3
 pycparser  
 pyct==0.4.8
-pycurl==7.43.0.6
+
 pydeck==0.6.2
 pydocstyle  
 pyerfa  
